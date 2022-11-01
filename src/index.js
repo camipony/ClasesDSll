@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Primero from './components/Primero';
+import Segundo from './components/Segundo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Primero nombre='Juan' numerico='321' edad={31}/> */}
+    <Segundo edad={22}/>
   </React.StrictMode>
 );
 
